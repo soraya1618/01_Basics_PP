@@ -16,9 +16,49 @@
 
 const prompt = require('prompt-sync')({sigint: true});
 
+
+// --> installiern mit: npm i prompt-sync
+
+const prompt = require('prompt-sync')({sigint: true});
+
 // Alles muss man selber machen lassen! ...
 let firstName = prompt("Vorname?: ");
 let familyName = prompt("Name?: ");
+console.log("Hallo, " + firstName + " " + familyName +"!"); 
+
+// Alles muss man selber machen lassen! ...
+let firstName = prompt("Vorname?: ");
+let familyName = prompt("Name?: ");
+
+
 console.log("Hallo, " + firstName + " " + familyName +"!");
 
+
+/*********   CODE CHALLENGE 01 **********/
+ 
+/*
+Geben Sie über eine Prompt-Anforderung eine Zahl ein.
+Geben Sie über eine Prompt-Anforderung eine zweite Zahl ein.
+Berechnen Sie die Summe der beiden Zahlen.
+Geben Sie die Summe der Zahlen in die Konsole aus:
+"Die Summe der Zahlen ist: summe"
+*/
+
+const prompt = require('prompt-sync')({sigint: true});
+
+"name": "01_basics_pp",
+"version": "1.0.0",
+"description": "",
+"main": "src/02_variablen.js",
+"main": "src/03_prompt.js",
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+"keywords": [],
+"author": "",
+"license": "ISC"
+"license": "ISC",
+"dependencies": {
+  "prompt-sync": "^4.2.0"
+}
 
